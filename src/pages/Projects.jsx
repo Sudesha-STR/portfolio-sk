@@ -64,11 +64,23 @@ const Projects = () => {
             <ProjectCard
               imgPath={kickstart}
               isBlog={false}
-              title=""
-              description="Reviewer"
+              title="Advances in Food Processing for Sustainable Food Security (AFP-2019)"
+              description="Organizer"
               ghLink="https://github.com/19sajib/mern-stack-ecommerce"
             />
           </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={kickstart}
+              isBlog={false}
+              title="The Institute of Food Technologists (IFT) and American Society of Agricultural & Biological Engineers (ASABE)"
+              description="Member"
+              ghLink="https://github.com/19sajib/mern-stack-ecommerce"
+            />
+          </Col>
+
+          
 
     
         </Row>
